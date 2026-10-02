@@ -253,9 +253,12 @@ class EmergencyEntry(BaseModel):
     field_2: str | None = None  # 保障地点
     field_3: str | None = None  # 通信车编号
     field_4: str | None = None  # 保障人员
-    field_5: str | None = None  # 到达时间
-    field_6: str | None = None  # 撤离时间
-    field_7: str | None = None  # 保障状态
+    field_5: str | None = None  # 通知时间
+    field_6: str | None = None  # 调派时间
+    field_7: str | None = None  # 到达时间
+    field_8: str | None = None  # 撤离时间
+    field_9: str | None = None  # 到场时长
+    field_10: str | None = None  # 保障结论
 
 class EnergyeffEntry(BaseModel):
     """节能项目明细结构。"""
